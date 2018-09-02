@@ -1,0 +1,198 @@
+
+header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+	background-position: center;
+    width: 100% 100%;
+    height: 650px;
+        
+}
+.bg-dark{
+    background-color: darkslategrey!important;
+}
+
+.nav-link:hover {
+    color: red !important;
+    transition: all 1s;
+}
+.logo{
+    color: white!important;
+    font-family: Arial !important ;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+
+header ul li{
+    padding: 10px;
+    
+
+}
+header ul li a{
+    color: #ffffff8a !important;
+}
+
+header{
+    position: relative;
+}
+
+header .data{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    
+    text-align: center;
+    position: relative;
+}
+
+.data hr{
+    background-color: white;
+    height: 1px;
+}
+
+.data p{
+    padding: 20px;
+    color: #ffffff8a;
+    font-family: serif;
+    font-weight: 400;
+}
+
+
+.data a{
+    
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+
+#about{
+    padding: 20px;
+    width: 100% 100%;
+    background-color: #f05f40;
+    color: white;
+}
+
+.button1 a{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border: none
+}
+
+#services{
+    padding: 20px !important;
+    
+}
+
+.icon{
+    color: red;
+}
+
+ dead{
+    padding: 20px !important;
+}
+
+
+
+.item p{
+    color: #868e96;
+}
+    
+.test{
+    height: 400px;
+    background-color: red;
+    width: 100% 100%;;
+}
+
+#contacts{
+    padding: 50px;
+    background-color: #00000030;
+}
+
+#contacts p{
+    padding: 20px;
+}
+
+
+--------------------------------
+
+#projects .info .bio span{
+    
+    padding-top: 10%;
+}
+
+#projects .info
+{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+}
+#projects .info:hover .bio 
+{
+	 	transition: 0.8s;
+		height: 100%; 
+	
+}
+#projects .info:hover p 
+{
+	transform: scale(1.3,1.3); 
+	transition-duration: 1s; 
+	transition-delay: 1s; 
+}
+#projects .info .bio 
+{
+	width: 100%; 
+	height:0; 
+	position: absolute;
+	background-color: rgba(240,95,64,.9); 
+	text-align: center;
+	z-index: 999;
+	top: 0; 
+	overflow: hidden;
+}
+#projects .info .bio span 
+{
+	padding-top: 10%;
+	color: rgba(255,255,255,.7);
+	font-size: 20px;
+}
+#projects .info .bio p 
+{ 
+	color: white;
+}
+#projects .col-lg-4
+{
+	padding-left: 0; 
+	padding-right: 0;
+}
+#projects .col-md-6
+{
+	padding-left: 0; 
+	padding-right: 0;
+}
+#projects .img-responsive
+{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
